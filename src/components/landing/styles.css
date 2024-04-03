@@ -140,7 +140,7 @@
     .project{
         width: 1060px;
         max-width: 1060px; 
-        height: 78%;
+        height: 73%;
         display: flex;
         flex-direction: row;
         justify-content: flex-start;
