@@ -29,7 +29,6 @@
     flex-direction: column;
     justify-content: center;
     font-family: 'josefinsans';
-
 }
 .project__logo{
     max-width: 100px;
@@ -153,8 +152,8 @@
     }
     .project__logo-desktop{
         display: flex;
-        margin-bottom: 90px;
-        margin-top: -120px;
+        margin-bottom: 120px;
+        margin-top: -150px;
         margin-right: 300px;
         max-width: 150px;
     }
@@ -303,8 +302,8 @@
     }
     .project__logo-desktop{
         display: flex;
-        margin-bottom: 90px;
-        margin-top: -120px;
+        margin-bottom: 120px;
+        margin-top: -150px;
         margin-right: 300px;
         max-width: 150px;
     }
