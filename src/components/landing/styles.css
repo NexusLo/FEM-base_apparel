@@ -137,8 +137,9 @@
         align-items: center;
     }
     .project{
-        width: 1320px;
-        min-width: 1280px; 
+        width: 100%;
+        min-width: 1250px; 
+        max-width: 1650px;
         height: 100%;
         display: flex;
         flex-direction: row;
@@ -153,7 +154,7 @@
     .project__logo-desktop{
         display: flex;
         margin-bottom: 120px;
-        margin-top: -135px;
+        margin-top: -110px;
         margin-right: 300px;
         max-width: 150px;
     }
@@ -286,8 +287,9 @@
         align-items: center;
     }
     .project{
-        width: 1350px;
-        max-width: 1350px; 
+        width: 100%;
+        min-width: 1350px; 
+        max-width: 1650px;
         height: 100%;
         display: flex;
         flex-direction: row;
@@ -302,8 +304,8 @@
     .project__logo-desktop{
         display: flex;
         margin-bottom: 120px;
-        margin-top: -150px;
-        margin-right: 300px;
+        margin-top: -120px;
+        margin-right: 390px;
         max-width: 150px;
     }
     .rowfordesktop{
