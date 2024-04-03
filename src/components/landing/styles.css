@@ -23,7 +23,7 @@
 .project{
     width: 85%;
     max-width: 420px;
-    height: 98%;
+    height: 91%;
     background: linear-gradient(135deg,hsl(0, 0%, 100%), hsl(0, 100%, 98%));
     display: flex;
     flex-direction: column;
@@ -138,7 +138,7 @@
     }
     .project{
         width: 1300px;
-        min-width: 13000px; 
+        min-width: 1300px; 
         height: 98%;
         display: flex;
         flex-direction: row;
