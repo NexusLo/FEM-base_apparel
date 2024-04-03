@@ -116,7 +116,7 @@
     box-shadow: 7px 11px 22px 3px #dfcccc
   }
   .project__button:hover{
-    opacity: 0.4;
+    opacity: 0.5;
   }
   .arrow-icon {
     width: 12px; 
@@ -138,9 +138,9 @@
         align-items: center;
     }
     .project{
-        width: 1060px;
-        max-width: 1060px; 
-        height: 71%;
+        width: 1310px;
+        max-width: 1310px; 
+        height: 93%;
         display: flex;
         flex-direction: row;
         justify-content: flex-start;
@@ -155,8 +155,8 @@
         display: flex;
         margin-bottom: 90px;
         margin-top: -120px;
-        margin-right: 260px;
-        max-width: 100px;
+        margin-right: 300px;
+        max-width: 150px;
     }
     .rowfordesktop{
         display: flex;
@@ -181,10 +181,10 @@
         width: 100%;
         height: 100%
     }
-    
     .project__title{
-        font-size: 2.6rem;
+        font-size: 3.4rem;
         font-weight: 400;
+        line-height: 1.1;
         text-transform: uppercase;
         text-align: left;	
         letter-spacing: 0.8rem;
@@ -199,16 +199,15 @@
         font-weight: 200;
         font-family: 'josefinlight';
     }
-    
     .project__msg{
-        font-size: 0.9rem;
+        font-size: 1rem;
         line-height: 1.5;
         text-align: left;
         color: #d1aaaaf1;
         margin-bottom: 35px;
-        margin-inline: 40px;
-        margin-right: 80px;
-        width: 57%
+        margin-inline: 5px;
+        margin-right: 0px;
+        width: 63%
     }
     .project__input{
         display: flex;
@@ -236,7 +235,7 @@
     .project__input-errormsg{
         color: hsl(0, 93%, 68%);
         margin-top: -30px;
-        margin-left: -150px;
+        margin-left: -210px;
         font-size: 0.75rem;
         margin-bottom: 50px;
         text-align: left;
@@ -245,7 +244,7 @@
         position: relative;
         width: 20px;
         top: -107px;
-        right: -108px;
+        right: -120px;
     }
     .project__input-btncontainer{
         display: flex;
@@ -256,7 +255,7 @@
     .project__button {
         background: linear-gradient(#F7B4B6,#EF9392);
         border-radius: 25px;
-        width: 80px;
+        width: 120px;
         height: 55px;
         border: none;
         cursor: pointer;
@@ -290,9 +289,9 @@
         align-items: center;
     }
     .project{
-        width: 1060px;
-        max-width: 1060px; 
-        height: 71%;
+        width: 1350px;
+        max-width: 1360px; 
+        height: 95%;
         display: flex;
         flex-direction: row;
         justify-content: flex-start;
@@ -307,8 +306,8 @@
         display: flex;
         margin-bottom: 90px;
         margin-top: -120px;
-        margin-right: 260px;
-        max-width: 100px;
+        margin-right: 300px;
+        max-width: 150px;
     }
     .rowfordesktop{
         display: flex;
@@ -334,8 +333,9 @@
         height: 100%
     }
     .project__title{
-        font-size: 2.6rem;
+        font-size: 3.4rem;
         font-weight: 400;
+        line-height: 1.1;
         text-transform: uppercase;
         text-align: left;	
         letter-spacing: 0.8rem;
@@ -343,7 +343,7 @@
         margin-left: 20px;
         margin-right: 40px;
         color: rgba(0, 0, 0, 0.726);
-        width: 60%;
+        width: 60%;;
     }
     .project__title-color{
         color: #d1aaaa;
@@ -351,14 +351,14 @@
         font-family: 'josefinlight';
     }
     .project__msg{
-        font-size: 0.9rem;
-        line-height: 1.5;
+        font-size: 1rem;
+        line-height: 1.7;
         text-align: left;
         color: #d1aaaaf1;
-        margin-bottom: 35px;
-        margin-inline: 40px;
-        margin-right: 80px;
-        width: 57%
+        margin-bottom: 45px;
+        margin-inline: 0px;
+        margin-right: 20px;
+        width: 60%
     }
     .project__input{
         display: flex;
@@ -386,7 +386,7 @@
     .project__input-errormsg{
         color: hsl(0, 93%, 68%);
         margin-top: -30px;
-        margin-left: -150px;
+        margin-left: -210px;
         font-size: 0.75rem;
         margin-bottom: 50px;
         text-align: left;
@@ -395,7 +395,7 @@
         position: relative;
         width: 20px;
         top: -107px;
-        right: -108px;
+        right: -120px;
     }
     .project__input-btncontainer{
         display: flex;
@@ -416,7 +416,7 @@
         box-shadow: 7px 11px 22px 3px #dfcccc
       }
       .project__button:hover{
-        opacity: 0.4;
+        opacity: 0.5;
       }
       .arrow-icon {
         width: 12px; 

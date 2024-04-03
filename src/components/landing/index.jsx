@@ -59,7 +59,7 @@ export default function Landing(){
                 </div>
                     {loginResult === false && (
                     <div className='project__input-container'>
-                        <p className='project__input-errormsg'>Please provide a valid email address</p>
+                        <p className='project__input-errormsg'>Please provide a valid email</p>
                         <img src={error} alt='error' className='project__input-errorimg' />
                     </div>
                     )}  
