@@ -15,7 +15,7 @@
 .wrapper{
     background-color: black;
     width: 100vw;
-    height:100vh;
+    height: 100vh;
     display: flex; 
     justify-content: center;
     align-items: center;
@@ -137,9 +137,9 @@
         align-items: center;
     }
     .project{
-        width: 1310px;
-        max-width: 1310px; 
-        height: 93%;
+        width: 1300px;
+        min-width: 13000px; 
+        height: 98%;
         display: flex;
         flex-direction: row;
         justify-content: flex-start;
@@ -167,159 +167,8 @@
         justify-content: center;
         align-items: center;
         text-align: left;
-        margin-top: 50px;
         width: 58%;
-        height: 100%;
-    }
-    .project__imgdiv{
-        height: 100%;
-        width: 47%;
-    }
-    .project__image{
-        width: 100%;
-        height: 100%
-    }
-    .project__title{
-        font-size: 3.4rem;
-        font-weight: 400;
-        line-height: 1.1;
-        text-transform: uppercase;
-        text-align: left;	
-        letter-spacing: 0.8rem;
-        margin-bottom: 15px;
-        margin-left: 20px;
-        margin-right: 40px;
-        color: rgba(0, 0, 0, 0.726);
-        width: 60%;;
-    }
-    .project__title-color{
-        color: #d1aaaa;
-        font-weight: 200;
-        font-family: 'josefinlight';
-    }
-    .project__msg{
-        font-size: 1rem;
-        line-height: 1.5;
-        text-align: left;
-        color: #d1aaaaf1;
-        margin-bottom: 35px;
-        margin-inline: 5px;
-        margin-right: 0px;
-        width: 63%
-    }
-    .project__input{
-        display: flex;
-        width: 70%;
-        padding: 18px;
-        height: 50px;
-        margin-left: 60px;
-        background-color: hsl(0, 100%, 98%);
-        border: 1px solid #EEE2E2;
-        border-radius: 25px;
-        color: black;
-    }
-    .project__input:focus{
-        outline: none;
-        box-shadow: 0px 0px 5px hsla(0, 36%, 70%, 0.5);
-        border-width: 2px;
-    }
-    .project__input::placeholder{
-        color: #d1aaaa73;
-        font-family: 'josefinsans';
-    }
-    .project__input-error{
-        border: 1px solid hsl(0, 93%, 68%); 
-    }
-    .project__input-errormsg{
-        color: hsl(0, 93%, 68%);
-        margin-top: -30px;
-        margin-left: -210px;
-        font-size: 0.75rem;
-        margin-bottom: 50px;
-        text-align: left;
-    }
-    .project__input-errorimg{
-        position: relative;
-        width: 20px;
-        top: -107px;
-        right: -120px;
-    }
-    .project__input-btncontainer{
-        display: flex;
-        justify-content: center;
-        width: 90%;
-        height: 90px;
-    }
-    .project__button {
-        background: linear-gradient(#F7B4B6,#EF9392);
-        border-radius: 25px;
-        width: 120px;
-        height: 55px;
-        border: none;
-        cursor: pointer;
-        position: relative;
-        bottom: 3%;
-        left: -10%;
-        box-shadow: 7px 11px 22px 3px #dfcccc
-      }
-      .project__button:hover{
-        opacity: 0.4;
-      }
-      .arrow-icon {
-        width: 12px; 
-        margin-left: 3px;
-        /* Ajustez la taille de l'image selon vos besoins */
-      }
-    .project__subtitle{
-        width: 100%;
-        text-align: center;
-    }
-}
-
-
-@media (min-width: 1440px) {
-    .wrapper{
-        background-color: black;
-        width: 100vw;
-        height:100vh;
-        display: flex; 
-        justify-content: center;
-        align-items: center;
-    }
-    .project{
-        width: 1350px;
-        max-width: 1360px; 
-        height: 95%;
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-start;
-        align-items: normal;
-        background: linear-gradient(135deg,hsl(0, 0%, 100%), hsl(0, 100%, 98%));
-        font-family: 'josefinsans';
-    }
-    .project__logo{
-        display: none;
-    }
-    .project__logo-desktop{
-        display: flex;
-        margin-bottom: 120px;
-        margin-top: -150px;
-        margin-right: 300px;
-        max-width: 150px;
-    }
-    .rowfordesktop{
-        display: flex;
-        flex-direction: row-reverse;
-    }
-    .columnfordesktop{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        text-align: left;
-        margin-top: 50px;
-        width: 58%;
-        height: 100%;
+        height: auto;
     }
     .project__imgdiv{
         height: 100%;
@@ -403,7 +252,156 @@
     .project__button {
         background: linear-gradient(#F7B4B6,#EF9392);
         border-radius: 25px;
-        width: 80px;
+        width: 100px;
+        height: 55px;
+        border: none;
+        cursor: pointer;
+        position: relative;
+        bottom: 3%;
+        left: -10%;
+        box-shadow: 7px 11px 22px 3px #dfcccc
+      }
+      .project__button:hover{
+        opacity: 0.5;
+      }
+      .arrow-icon {
+        width: 12px; 
+        margin-left: 3px;
+        /* Ajustez la taille de l'image selon vos besoins */
+      }
+    .project__subtitle{
+        width: 100%;
+        text-align: center;
+    }
+}
+
+
+@media (min-width: 1440px) {
+    .wrapper{
+        background-color: black;
+        width: 100vw;
+        height:100vh;
+        display: flex; 
+        justify-content: center;
+        align-items: center;
+    }
+    .project{
+        width: 1350px;
+        max-width: 1350px; 
+        height: 98%;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: normal;
+        background: linear-gradient(135deg,hsl(0, 0%, 100%), hsl(0, 100%, 98%));
+        font-family: 'josefinsans';
+    }
+    .project__logo{
+        display: none;
+    }
+    .project__logo-desktop{
+        display: flex;
+        margin-bottom: 120px;
+        margin-top: -150px;
+        margin-right: 300px;
+        max-width: 150px;
+    }
+    .rowfordesktop{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .columnfordesktop{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: left;
+        width: 58%;
+        height: auto;
+    }
+    .project__imgdiv{
+        height: 100%;
+        width: 47%;
+    }
+    .project__image{
+        width: 100%;
+        height: 100%
+    }
+    .project__title{
+        font-size: 3.4rem;
+        font-weight: 400;
+        line-height: 1.1;
+        text-transform: uppercase;
+        text-align: left;	
+        letter-spacing: 0.8rem;
+        margin-bottom: 15px;
+        margin-left: 20px;
+        margin-right: 40px;
+        color: rgba(0, 0, 0, 0.726);
+        width: 60%;;
+    }
+    .project__title-color{
+        color: #d1aaaa;
+        font-weight: 200;
+        font-family: 'josefinlight';
+    }
+    .project__msg{
+        font-size: 1rem;
+        line-height: 1.7;
+        text-align: left;
+        color: #d1aaaaf1;
+        margin-bottom: 45px;
+        margin-inline: 0px;
+        margin-right: 20px;
+        width: 60%
+    }
+    .project__input{
+        display: flex;
+        width: 70%;
+        padding: 18px;
+        height: 50px;
+        margin-left: 60px;
+        background-color: hsl(0, 100%, 98%);
+        border: 1px solid #EEE2E2;
+        border-radius: 25px;
+        color: black;
+    }
+    .project__input:focus{
+        outline: none;
+        box-shadow: 0px 0px 5px hsla(0, 36%, 70%, 0.5);
+        border-width: 2px;
+    }
+    .project__input::placeholder{
+        color: #d1aaaa73;
+        font-family: 'josefinsans';
+    }
+    .project__input-error{
+        border: 1px solid hsl(0, 93%, 68%); 
+    }
+    .project__input-errormsg{
+        color: hsl(0, 93%, 68%);
+        margin-top: -30px;
+        margin-left: -210px;
+        font-size: 0.75rem;
+        margin-bottom: 50px;
+        text-align: left;
+    }
+    .project__input-errorimg{
+        position: relative;
+        width: 20px;
+        top: -107px;
+        right: -120px;
+    }
+    .project__input-btncontainer{
+        display: flex;
+        justify-content: center;
+        width: 90%;
+        height: 90px;
+    }
+    .project__button {
+        background: linear-gradient(#F7B4B6,#EF9392);
+        border-radius: 25px;
+        width: 100px;
         height: 55px;
         border: none;
         cursor: pointer;
