@@ -137,9 +137,9 @@
         align-items: center;
     }
     .project{
-        width: 1300px;
-        min-width: 1300px; 
-        height: 98%;
+        width: 1320px;
+        min-width: 1280px; 
+        height: 100%;
         display: flex;
         flex-direction: row;
         justify-content: flex-start;
@@ -153,7 +153,7 @@
     .project__logo-desktop{
         display: flex;
         margin-bottom: 120px;
-        margin-top: -150px;
+        margin-top: -135px;
         margin-right: 300px;
         max-width: 150px;
     }
@@ -288,7 +288,7 @@
     .project{
         width: 1350px;
         max-width: 1350px; 
-        height: 98%;
+        height: 100%;
         display: flex;
         flex-direction: row;
         justify-content: flex-start;
